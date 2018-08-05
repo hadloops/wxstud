@@ -1,0 +1,13 @@
+.search-pancel{
+  display: flex;
+  flex-direction: row;
+  margin-left: 18px;
+}
+.input-search{
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+.btn{
+  display: flex;
+  margin-top: 10px;
+}

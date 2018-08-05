@@ -1,0 +1,17 @@
+<view class='form'>
+  <form bindsubmit="formSubmit">
+     <view class="search-pancel">
+      <text>用户名</text>
+      <input name='username' placeholder="用户名" class='input-search'></input>
+    </view>
+    <view class="search-pancel">
+      <text decode="true">密  &nbsp;&nbsp;码</text>
+      <input name='password' placeholder="密码" class='input-search'></input>
+    </view>
+    <view class='btn'>
+      <button form-type="submit" type="primary" size='mini'>注册</button>
+    </view>
+      
+  </form>
+</view>
+<button open-type="contact">在线客服 </button>

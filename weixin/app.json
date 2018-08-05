@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/reg/reg",
+    "pages/list/index",
+    "pages/about/about",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "盖世码农",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "/image/index.png",
+      "selectedIconPath": "/image/indexd.png"
+    },
+      {
+        "pagePath": "pages/list/index",
+        "iconPath": "/image/list.png",
+        "selectedIconPath": "/image/listd.png"
+      }
+    ,
+    {
+      "pagePath": "pages/reg/reg",
+      "iconPath": "/image/list.png",
+      "selectedIconPath": "/image/listd.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "iconPath": "/image/me.png",
+      "selectedIconPath": "/image/me.png"
+    }
+    ]
+  },
+  "debug": true
+}

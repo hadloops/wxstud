@@ -1,0 +1,161 @@
+/* pages/about/index.wxss */
+.title{
+  display: flex;
+  height: 3rem;
+  line-height: 3rem;
+  color: #f50;
+  margin-left: 1rem;
+}
+
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.search-button {
+  border-left: 0 !important;
+  border-top: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+  background-color: #fff !important;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #296fd0 !important;
+  width: 20%;
+  margin: 0 !important;
+  box-shadow: 1px 1px 6px #ecf0f0;
+}
+
+.search-button icon {
+  position: absolute;
+  margin: 28rpx 16rpx;
+}
+
+.search-input {
+  background-color: #fff;
+  padding: 16rpx 0 16rpx 32rpx;
+  min-height: 1rem;
+  font-size: 30rpx;
+  /*  position: absolute;*/
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  /* border: 1px solid #ededed;  */
+  border-right: 0 !important;
+  height: 48rpx;
+  width: 80%;
+  text-align: left;
+  box-shadow: 1px 1px 6px #ecf0f0;
+}
+
+.share-button {
+  border: 1px solid #eee !important;
+  color: #296fd0 !important;
+  left: 10rpx;
+  height: 100rpx;
+  width: 200rpx;
+}
+
+.search-pancel {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f7f7;
+  padding: 24rpx 24rpx;
+}
+
+.search-pancel image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.top-Nav{
+display: flex;
+padding: 25rpx 0;
+background: #fff;
+justify-content:space-around;
+border-bottom: 1px solid #eee;
+
+}
+.top-item{
+text-align: center;
+}
+.top-item image{
+width: 88rpx;
+height: 88rpx;
+}
+.top-item text{
+line-height: 20rpx;
+font-size: 14px;
+}
+
+
+.share-button{
+  opacity: 0; 
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left: 0;
+
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  line-height: 3rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.left{
+  width: 50%;
+  height: 3rem;
+  background: #f50;
+
+}
+
+.right{
+  width: 50%;
+  height: 3rem;
+  background: #296fd0;
+ 
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+}
+.left-list{
+  height: 3rem;
+  width: 30%;
+  background: #ecf0f0;
+  line-height: 3rem;
+  text-align: center;
+}
+.right-list{
+  height: 3rem;
+  width: 70%;
+  line-height: 1.5rem;
+  text-align: center;
+} 
+.list1{
+  height: 1.5rem;
+  width: 100%;
+  background: blueviolet;
+}
+.list2{
+  height: 1.5rem;
+  background: #f50;
+  width: 100%;
+}

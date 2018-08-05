@@ -1,0 +1,38 @@
+<!--pages/about/index.wxml-->
+<swiper class="swiper"  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+  <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+  </block>  
+</swiper>
+<view style="display:{{showallDisplay}}">
+
+  <view style="display:{{floatDisplay}}">
+      <form catchsubmit="formSubmit" catchreset="formReset" id="search-form">
+          <view class="search-pancel">
+              <input value="" id="search-input" name="input" confirm-type="search" class="search-input" placeholder="搜索你感兴趣的内容..." bindconfirm="formSubmit"></input>
+              <button class="search-button" form-type="submit" size="mini" plain="true">
+                  <icon type="search" color="#959595" size="12" />
+              </button>
+          </view>
+      </form>
+  </view>
+  
+</view>
+
+<view class='btn'>
+  <view class='left'>最新</view>
+  <view class='right'>最热</view>
+</view>
+
+<block wx:for="{{info}}" wx:for-index="index">
+  <view class='list'>
+    <view class='left-list'>{{item.name}}</view>
+    <view class='right-list'>
+      <view class='list1'>{{item.age}}</view>
+      <view class='list2'>{{item.money}}</view>
+    </view>
+  </view>
+</block>

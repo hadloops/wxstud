@@ -1,0 +1,23 @@
+<!--pages/bander/index.wxml-->
+<view style="display:{{showallDisplay}}">
+
+  <view style="display:{{floatDisplay}}">
+      <form catchsubmit="formSubmit" catchreset="formReset" id="search-form">
+          <view class="search-pancel">
+              <input value="" id="search-input" name="input" confirm-type="search" class="search-input" placeholder="搜索你感兴趣的内容..." bindconfirm="formSubmit"></input>
+              <button class="search-button" form-type="submit" size="mini" plain="true">
+                  <icon type="search" color="#959595" size="12" />
+              </button>
+          </view>
+      </form>
+  </view>
+  
+</view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
